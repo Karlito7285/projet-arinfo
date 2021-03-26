@@ -1,0 +1,114 @@
+/*=======GLOBAL==========*/
+header{
+    background-image: url(../image/background-1201003_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*Logo Arinfo*/
+.img{
+    height: 80px;
+}
+/*Navbar*/
+.row-nav{
+    margin: 10px 0 30px 0;
+}
+.nav-item{
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  border-radius: 10px;
+}
+.nav-item:hover{
+    background-color: #2098D1;
+    color: white;
+    border-radius: 10px;
+}
+.nav-item{
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  border-radius: 10px;
+}
+.nav-item:hover{
+    background-color: #2098D1;
+    color: white;
+    border-radius: 10px;
+}
+/*Footer*/
+footer{
+    background-image: url(../image/background-1201003_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
+.text-dark{
+    text-align: center;
+}
+/*=======PAGE PRINCIPALE=========*/
+/*Card*/
+.card{
+    margin-bottom: 60px;
+    border-radius : 20px;
+    box-shadow: 0px 10px 10px blue;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #2098D1;
+    color: white;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+/*=======PAGE DETAIL=========*/
+/*Presentation*/
+.presentation{
+    background: #95cbe4;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 0px 10px 10px blue;
+}
+.description{
+    margin: 100px 0 0 30px;
+    text-align: center;
+}
+.contact{
+    margin-top: 120px;
+}
